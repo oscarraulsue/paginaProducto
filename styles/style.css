@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tourney:wght@500&display=swap');
+
+*{
+  margin: 0;
+}
+body {
+    background-color: rgb(190, 7, 7);
+    font-family: 'Lato', sans-serif;
+    width: 100%;
+  }
+nav {
+    display: flex;
+
+    background-color: rgb(216, 214, 214);
+    position:fixed;
+    width: 100%;
+    z-index:100;
+
+  }
+  
+.barra{
+  font-size: 18px;
+  margin-top: 1%;
+  padding-left: 2%;
+  width: 100%;
+  display: flex;
+  font-weight: bold;
+}
+  
+  li {
+    list-style: none;
+    margin-right: 50px;
+  }
+  
+  a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    text-shadow: 2px 2px 5px rgb(73, 32, 32);
+  }
+  A:hover{
+    color: rgb(173, 0, 0);
+    box-shadow: 0px 3px 3px rgba(128, 128, 128);
+    text-shadow: 0px 0px rgb(7, 7, 7);
+  }
+  
+   
+  .flex {
+    display: flex;
+  }
+  
+ .logo{
+  position: relative;
+    display: flex;
+    padding-top: 28px;
+
+ }
+  .logo img {
+width: 100%;
+height: 90vh;
+  }
+  @media (max-width: 768px) {
+    
+      .container .emaild{
+        padding-left: 30%;
+            }
+      #diseños{
+        display:inline-flex;
+        text-align: center;
+        width: 100%;
+        margin: 0;
+       padding-left: 0;
+        padding-bottom: 0px;
+       
+        
+      }
+      #diseños .dis{
+        width: 15%;
+        align-items: center;
+        display:inline-block;
+        justify-items: center;
+        text-align: center;
+        margin: 0 auto;
+        padding: 15%;
+        
+      }
+      #diseños .dis .diseños-img{
+        width: 180px;
+        height: 220px;
+        border: 10px black double;
+        background-color: rgb(255, 255, 255);
+        
+      }
+      
+      #diseños .dis h2{
+        text-shadow: .5px .5px rgb(151, 148, 144);
+        margin-left: 40%;
+       width: 100%;
+        text-align: center;
+        font-size: 18px;
+       
+        
+    
+      }
+      #diseños .dis p{
+        text-shadow: .5px .5px rgb(0, 0, 0);
+        margin-left: 40%;
+        font-size: 15px;
+        color: rgb(29, 209, 194);
+        width: 100%;
+      }
+      .pasarela{
+        width: 80%;
+        
+        display: flex;
+       
+        margin: 0 auto;
+        align-items: center;
+        padding-left: 30%;
+      }
+      .pasarela #video{
+        width: 100%;
+        
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+        
+      }
+      #section{
+        display: flex;
+      justify-content: center;
+        width: 100%;
+        margin: 0;
+      padding: 20%;
+      }
+      .precios #compra-img{
+        width: 170px;
+        height: 220px;
+        border: 10px black double;
+        background-color: blanchedalmond;
+        margin: 0;
+        display: inline-block;   
+      
+      }
+      
+      #section .producto .level{
+       font-size: 22px;
+        font-weight: bold;
+        margin: 0 auto;
+        color: rgb(29, 209, 194);
+        text-shadow: 1px 1px rgb(0, 0, 0);  
+      }
+      #section .producto ol{
+       font-size: 17px;
+        color: khaki;
+        font-weight: bold;
+      }
+      footer{
+        text-align: center;
+        font-weight: bold;
+        margin: 10px;
+        padding-left: 40%;
+      }
+      footer span{
+        text-align: center;
+       
+        display: flex;
+      justify-content: center;
+      margin:0 auto;
+      font-size: 15px;
+      }
+  }
+  .container {
+  padding-top: 120px;
+    
+    margin: 0 auto;
+    
+  }
+  .container .emaild{
+    color: rgb(0, 0, 0);
+    text-shadow: 1.5px 1.5px 4px rgb(0, 0, 0);
+    font-family: "Dancing Script";
+    text-align: center;
+    font-size: 16px;
+    margin-top: -28rem;
+    margin-left: 1rem;
+    line-height: 35px;
+    z-index: 100;  
+    position: absolute;  
+  }
+  .barraemail .form{
+    width: 100%;
+    color: #495057;
+    font-size: 16px;
+    display: block;
+  }
+
+  .btn {
+    margin: 5px;
+    padding: 0 10px;
+    height: 30px;
+    font-size: 13px;
+    
+    text-transform: uppercase;
+    border: 3px rgb(255, 255, 255) solid;
+    border-radius: .5px;
+    background-color: rgb(88, 9, 9);
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    }
+.diseños{
+  display:inline-flex;
+  text-align: center;
+  width:80%;
+  margin: 0 auto;
+  padding-left: 50px;
+  padding-bottom: 100px;
+  height: 400px;
+  
+}
+.diseños .dis{
+ 
+  align-items: center;
+  display:inline-block;
+  justify-items: center;
+  text-align: center;
+  padding: 50px 45px;
+  margin-left: 15px;
+  
+}
+
+.diseños .dis .diseños-img{
+  width: 200px;
+  height: 250px;
+  border: 7px black double;
+  background-color: blanchedalmond;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.diseños .dis h2{
+  text-shadow: .5px .5px rgb(151, 148, 144);
+  margin: 5px auto;
+}
+.diseños .dis p{
+  text-shadow: 1px 1px rgb(0, 0, 0);
+  margin: 5px auto;
+  color: rgb(29, 209, 194);
+}
+  #rebel{
+    height: 0px;
+    overflow: hidden;
+    transition: .5s ease-in-out;
+  }
+  #Alaiah{
+    height: 0;
+    overflow: hidden;
+    transition: .6s ease-in-out;
+  }
+  #lucia{
+    height: 0;
+    overflow: hidden;
+    transition: .7s ease-in-out;
+  }
+  #img1:hover  #rebel{
+    height: 90px;
+  }
+  #img2:hover  #Alaiah{
+    height: 90px;
+  }
+  #img3:hover  #lucia{
+    height: 90px;
+  }
+
+.pasarela{
+
+  display: flex;
+  margin: 0 auto;
+
+}
+#video{
+  align-items: center;
+  display:flex;
+
+  margin: 0 auto;
+ 
+}
+#compra-img{
+  width: 200px;
+  height: 250px;
+  border: 7px black double;
+   background-color: blanchedalmond;
+  border-radius: 20px;
+  cursor: pointer;
+  
+}
+.precios{
+ 
+ padding: 100px;
+
+margin-left: 40px;
+margin: 0 auto;
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+}
+.precios .producto{
+
+  margin: 0 auto;
+  padding: 15px;
+
+  align-items: center;
+  text-align: center;
+}
+
+.precios .producto .level{
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0 auto;
+  color: rgb(29, 209, 194);
+  text-shadow: 1px 1px rgb(0, 0, 0);  
+}
+
+.precios .producto ol{
+  font-size:15px;
+  color: khaki;
+  font-weight: bold;
+}
+.precios .producto li{
+margin-top: 10px;
+
+}
+footer{
+  text-align: center;
+  font-weight: bold;
+  margin: 10px;
+}
+.pie {
+  text-align: center;
+  color: #495057;
+  display: flex;
+justify-content: center;
+margin: 10px;
+}
+#cart_menu_num {
+  position: absolute;
+  top: 3px;
+  left: 34.4%;
+  background: red;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  align-items: center;
+  color: white;
+  padding: 2px;
+}
+#car{
+  width: 30px;
+  margin-left: -50px;
+  margin-top: -5px;
+}
